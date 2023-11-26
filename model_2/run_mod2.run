@@ -1,0 +1,15 @@
+#RESET AMPL ENVIROMENT
+reset;
+
+model model-2.mod
+
+data data.dat
+
+option solver cplex;
+
+solve;
+
+display Y;
+display X;
+display TotalBenefit;
+
